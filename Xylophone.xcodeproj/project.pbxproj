@@ -13,6 +13,7 @@
 		74954FF229D982C400280FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74954FF029D982C400280FB4 /* Main.storyboard */; };
 		74954FF429D982C500280FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74954FF329D982C500280FB4 /* Assets.xcassets */; };
 		74954FF729D982C500280FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74954FF529D982C500280FB4 /* LaunchScreen.storyboard */; };
+		74954FFF29D9873A00280FB4 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 74954FFE29D9873A00280FB4 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		74954FF329D982C500280FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74954FF629D982C500280FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74954FF829D982C500280FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74954FFE29D9873A00280FB4 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = /Users/olegzhovtanskyi/Desktop/Swift/NewStart/Xylophone/Xylophone/Sounds; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		74954FE929D982C400280FB4 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				74954FFE29D9873A00280FB4 /* Sounds */,
 				74954FEA29D982C400280FB4 /* AppDelegate.swift */,
 				74954FEC29D982C400280FB4 /* SceneDelegate.swift */,
 				74954FEE29D982C400280FB4 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				74954FF729D982C500280FB4 /* LaunchScreen.storyboard in Resources */,
 				74954FF429D982C500280FB4 /* Assets.xcassets in Resources */,
+				74954FFF29D9873A00280FB4 /* Sounds in Resources */,
 				74954FF229D982C400280FB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +325,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
